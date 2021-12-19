@@ -1,8 +1,9 @@
 ﻿
 
-namespace GithubActionsTestLib;
-
-public interface IMathOperation<T>
+namespace GithubActionsTestLib
 {
-    T Sum(T a, T b);
+    public interface IMathOperation<T>
+    {
+        T Sum(T a, T b);
+    }
 }

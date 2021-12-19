@@ -1,6 +1,7 @@
-namespace GithubActionsTestLib;
-
-public class MultiplyOperation : IMathOperation<decimal>
+namespace GithubActionsTestLib
 {
-    public decimal Sum(decimal a, decimal b) => a * b;
+    public class MultiplyOperation : IMathOperation<decimal>
+    {
+        public decimal Sum(decimal a, decimal b) => a * b;
+    }
 }
